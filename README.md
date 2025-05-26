@@ -26,7 +26,7 @@ email-autoreply/
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/yourusername/email-autoreply.git
+git clone https://github.com/aiemailclassifier/email-autoreply.git
 cd email-autoreply
 ```
 

@@ -42,7 +42,7 @@ conda install numpy pandas scikit-learn nltk spacy transformers email-validator 
 pip install torch imapclient pyzmail36
 ```
 
-> Note: For Windows + Anaconda, if `pyzmail36` fails, use the updated `integration.py` that relies on `imaplib` + `email` instead (already provided).
+> Note: For Windows + Anaconda, `pyzmail36` fails, so the `integration.py` relies on `imaplib` + `email`.
 
 ### 4️⃣ Prepare the dataset
 Generate synthetic data:
@@ -63,6 +63,7 @@ Use a Gmail account with 2FA and an app password.
 set EMAIL_USER=your_email@gmail.com
 set EMAIL_PASS=your_16character_apppassword
 ```
+To generate app password, visit https://myaccount.google.com/apppasswords  
 
 ### 7️⃣ Run the integration script (single run)
 ```bash

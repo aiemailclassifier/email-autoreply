@@ -6,7 +6,7 @@ This project is a Python-based prototype for automatically classifying incoming 
 
 ## 📦 Project Structure
 ```
-ai-email-proto/
+email-autoreply/
 ├── data/
 │   └── emails.csv               # Sample or synthetic email dataset
 ├── models/
@@ -26,8 +26,8 @@ ai-email-proto/
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/yourusername/ai-email-proto.git
-cd ai-email-proto
+git clone https://github.com/yourusername/email-autoreply.git
+cd email-autoreply
 ```
 
 ### 2️⃣ Create and activate the Conda environment
